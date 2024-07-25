@@ -1843,6 +1843,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 72.39) (xy 44.45 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06187f96-48be-4ff5-97a4-253cfab4425b")
+	)
+	(wire
+		(pts
 			(xy 138.43 24.13) (xy 149.86 24.13)
 		)
 		(stroke
@@ -2003,6 +2013,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 59.69) (xy 34.29 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c103759-6527-4b19-8603-b4dfefe23fd4")
+	)
+	(wire
+		(pts
 			(xy 54.61 27.94) (xy 54.61 29.21)
 		)
 		(stroke
@@ -2020,6 +2040,16 @@
 			(type default)
 		)
 		(uuid "701869ad-d525-4ee3-8186-66d110879a68")
+	)
+	(wire
+		(pts
+			(xy 44.45 80.01) (xy 64.77 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a85a0d2-ef5a-4909-ac18-78841bb3e1f2")
 	)
 	(wire
 		(pts
@@ -2060,6 +2090,16 @@
 			(type default)
 		)
 		(uuid "8a8d6cb4-5573-40cc-b63e-958ff21e5547")
+	)
+	(wire
+		(pts
+			(xy 34.29 90.17) (xy 34.29 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b3f66d9-eb9a-4adb-9b93-ea631e89a5b2")
 	)
 	(wire
 		(pts
@@ -2133,6 +2173,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 85.09) (xy 63.5 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c057878c-3698-4690-b785-ddfb766d864c")
+	)
+	(wire
+		(pts
 			(xy 95.25 29.21) (xy 95.25 44.45)
 		)
 		(stroke
@@ -2140,6 +2190,16 @@
 			(type default)
 		)
 		(uuid "c05aebb6-fb3c-40ba-9a11-837bc257b2da")
+	)
+	(wire
+		(pts
+			(xy 44.45 69.85) (xy 64.77 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc24a46b-1a89-48bf-a9e7-e73587514b6a")
 	)
 	(wire
 		(pts
@@ -2193,6 +2253,26 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 77.47) (xy 64.77 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e349bc3f-5802-4420-97e3-d94eed198ba1")
+	)
+	(wire
+		(pts
+			(xy 44.45 74.93) (xy 64.77 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f93c58-cb81-42b2-917d-8e15799f9690")
+	)
+	(wire
+		(pts
 			(xy 161.29 29.21) (xy 172.72 29.21)
 		)
 		(stroke
@@ -2230,6 +2310,26 @@
 			(type default)
 		)
 		(uuid "ef4c16fe-3a7a-4282-b8ad-3656a2307da0")
+	)
+	(wire
+		(pts
+			(xy 63.5 85.09) (xy 63.5 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f60a7418-7bdf-4922-a564-c1873fb45517")
+	)
+	(wire
+		(pts
+			(xy 44.45 82.55) (xy 64.77 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa83cf13-8449-4d2d-b531-2b6aaedc7a39")
 	)
 	(wire
 		(pts
@@ -2376,6 +2476,71 @@
 			(project "board"
 				(path "/6eb10beb-f31c-4c13-8f79-f4b6753787bf"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.29 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c1b3520-7c41-4fcd-98c9-ee37b195da40")
+		(property "Reference" "#PWR08"
+			(at 34.29 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 37.592 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acdbbe4a-4cff-41b9-add1-71d589f6d172")
+		)
+		(instances
+			(project "board"
+				(path "/6eb10beb-f31c-4c13-8f79-f4b6753787bf"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2583,16 +2748,16 @@
 	)
 	(symbol
 		(lib_id "Memory_Flash:W25Q128JVS")
-		(at 160.02 54.61 0)
+		(at 34.29 77.47 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "476dfc94-2084-42c8-9346-c709223d8c15")
 		(property "Reference" "U2"
-			(at 168.91 53.3399 0)
+			(at 25.4 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2601,7 +2766,7 @@
 			)
 		)
 		(property "Value" "W25Q128JVS"
-			(at 168.91 55.8799 0)
+			(at 25.4 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2610,7 +2775,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
-			(at 160.02 54.61 0)
+			(at 34.29 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2619,7 +2784,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-			(at 160.02 54.61 0)
+			(at 34.29 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2628,7 +2793,7 @@
 			)
 		)
 		(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
-			(at 160.02 54.61 0)
+			(at 34.29 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,6 +3675,71 @@
 			(project "board"
 				(path "/6eb10beb-f31c-4c13-8f79-f4b6753787bf"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 34.29 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd4227b8-6c12-4f73-9075-f83472b330df")
+		(property "Reference" "#PWR07"
+			(at 34.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 34.29 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 34.29 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93f5179d-6ed7-451a-a0a9-ca4345667c87")
+		)
+		(instances
+			(project "board"
+				(path "/6eb10beb-f31c-4c13-8f79-f4b6753787bf"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
