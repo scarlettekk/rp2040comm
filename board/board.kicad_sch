@@ -6730,7 +6730,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "personal:ABM8-272-T3_ABR"
 			(at 31.75 139.7 0)
 			(effects
 				(font
