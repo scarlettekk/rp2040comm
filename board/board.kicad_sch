@@ -6722,7 +6722,7 @@
 				)
 			)
 		)
-		(property "Value" "ABM8-272-T3"
+		(property "Value" "ABM8G-12.000MHZ-18-D2Y-T"
 			(at 31.496 133.35 90)
 			(effects
 				(font
@@ -6730,7 +6730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "personal:ABM8-272-T3_ABR"
+		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm"
 			(at 31.75 139.7 0)
 			(effects
 				(font
