@@ -5742,6 +5742,17 @@
 		)
 		(uuid "1c44107e-9a05-430a-ad72-157357323b78")
 	)
+	(label "IOVDD"
+		(at 92.71 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4733304e-22d3-4002-aa80-5a76976e5e07")
+	)
 	(label "DIO4"
 		(at 175.26 64.77 0)
 		(fields_autoplaced yes)
