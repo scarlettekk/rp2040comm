@@ -4089,7 +4089,7 @@
 		(uuid "73d8ede7-13ec-4a37-baba-a2ef69f88d7b")
 		(at 59.576 36.5 180)
 		(property "Reference" "U3"
-			(at -0.8 -4.12225 360)
+			(at -0.8 -4.12225 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4947cda3-4525-4aa0-a3bf-f70a04c53d5b")
@@ -4101,7 +4101,7 @@
 			)
 		)
 		(property "Value" "NCP1117DT33G"
-			(at -1.924 5 360)
+			(at -1.924 5 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "813477f1-393e-4111-bcf0-53d65d645c26")
@@ -4113,7 +4113,7 @@
 			)
 		)
 		(property "Footprint" "NCP1117DT50G:NCP1117DT50G"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "25f842c3-0894-42b6-9ac5-a558f5b55a8f")
@@ -4125,7 +4125,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20221020/F1E26C865685C1F23559C8F4FB46CEF3.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "333d45e3-19d2-4042-927c-09ddab273087")
@@ -4137,7 +4137,7 @@
 			)
 		)
 		(property "Description" "Output Type: Maximum Input Voltage:20V Output Voltage:5V Output Voltage:5V MAX Output Current:1A Power Supply Rejection Ratio (PSRR):61dB@(120Hz) Dropout Voltage:1.2V@(800mA) standby current:10mA Operating Temperature:0°C~+125°C Operating Temperature:0°C~+12"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4c6d2ae2-c292-4c15-9006-e48caad5e908")
